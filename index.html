@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IPAVERSE | Gim</title>
+    <!-- Tailwind CSS v3.x via CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="../shared/scrollBar.css">
+</head>
+<body class="bg-gray-100">
+    <!-- navbar placeholder -->
+
+    <main class="min-h-screen bg-gray-100">
+        <!-- judul -->
+        <div class="pt-10 text-center">            
+            <h1 class="font-bold text-4xl md:text-5xl text-green-700 capitalize mb-2">gim menu</h1>
+            <p class="mt-1 font-normal text-gray-500 capitalize">pilih gim yang ingin kamu mainkan disini</p>
+        </div>
+        <div class="mt-10 mx-4 md:mx-6 lg:mx-20">
+            <!-- Container utama untuk menengahkan grid -->
+            <div class="flex justify-center">
+                <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 justify-items-center mb-20">
+                    <!-- game card 1 -->
+                    <div class="w-full max-w-sm">
+                        <div class="bg-white border border-l-4 border-b-4 border-green-200 p-4 rounded-xl shadow-lg hover:shadow-xl transition-shadow duration-300 h-full flex flex-col">
+                                <!-- gambar game -->
+                            <div class="flex justify-center mb-4">
+                                <div class="bg-gray-200 w-full h-48 rounded-lg flex items-center justify-center">
+                                    <img src="./img/game3.png" alt="Game Image" class="object-center w-full h-full rounded-lg">
+                                </div>
+                            </div>
+                            <!-- judul dan deskripsi game -->
+                            <div class="mb-4 flex-grow">
+                                <h2 class="font-bold text-green-600 text-lg capitalize mb-1">Drag and Drop</h2>
+                                <p class="font-normal text-xs text-gray-600 capitalize">Asah pengetahuanmu dengan mencocokkan Definisi dan Istilahnya!!</p>
+                            </div>
+                            <!-- btn mainkan -->
+                            <button class="w-full border-l-4 border-b-4 border-green-800 active:border-0 px-4 py-2.5 bg-green-600 rounded-lg text-white font-semibold transition-all duration-100 shadow-md hover:bg-green-700 mt-auto">
+                                mainkan
+                            </button>
+                        </div>
+                    </div>
+
+                    <!-- game card 2 -->
+                    <div class="w-full max-w-sm">
+                        <div class="bg-white border border-l-4 border-b-4 border-blue-200 p-4 rounded-xl shadow-lg hover:shadow-xl transition-shadow duration-300 h-full flex flex-col">
+                            <!-- container gambar game -->
+                            <div class="flex justify-center mb-4">
+                                <div class="bg-gray-200 w-full h-48 rounded-lg flex items-center justify-center">
+                                    <img src="./img/game2.jpg" alt="Game Image" class="object-center w-full h-full rounded-lg">
+                                </div>
+                            </div>
+                            <!-- judul dan deskripsi game -->
+                            <div class="mb-4 flex-grow">
+                                <h2 class="font-bold text-blue-600 text-lg capitalize mb-1">Puzzle Urutan</h2>
+                                <p class="font-normal text-xs text-gray-600 capitalize">Test pengetahuanmu dengan Puzzle yang seru dan menarik.</p>
+                            </div>
+                            <!-- btn mainkan -->
+                            <button class="w-full border-l-4 border-b-4 border-blue-800 active:border-0 px-4 py-2.5 bg-blue-600 rounded-lg text-white font-semibold transition-all duration-100 shadow-md hover:bg-blue-700 mt-auto">
+                                mainkan
+                            </button>
+                        </div>
+                    </div>
+
+                    <!-- game card 3 -->
+                    <div class="w-full max-w-sm">
+                        <div class="bg-white border border-l-4 border-b-4 border-purple-200 p-4 rounded-xl shadow-lg hover:shadow-xl transition-shadow duration-300 h-full flex flex-col">
+                            <!-- container gambar game -->
+                            <div class="flex justify-center mb-4">
+                                <div class="bg-gray-200 w-full h-48 rounded-lg flex items-center justify-center">
+                                    <img src="./img/game1.jpg" alt="Game Image" class="object-center w-full h-full rounded-lg">
+                                </div>
+                            </div>
+                            <!-- judul dan deskripsi game -->
+                            <div class="mb-4 flex-grow">
+                                <h2 class="font-bold text-purple-600 text-lg capitalize mb-1">Studi Kasus</h2>
+                                <p class="font-normal text-xs text-gray-600 capitalize">Latih kemampuan beripikir kritis kamu dengan berbagai puzzle menantang.</p>
+                            </div>
+                            <!-- btn mainkan -->
+                            <button class="w-full border-l-4 border-b-4 border-purple-800 active:border-0 px-4 py-2.5 bg-purple-600 rounded-lg text-white font-semibold transition-all duration-100 shadow-md hover:bg-purple-700 mt-auto">
+                                mainkan
+                            </button>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- footer placeholder -->
+
+    <!-- js header -->
+    <script src="../script/header.js"></script>
+    <!-- js tema -->
+    <script src="../script/tema.js"></script>
+</body>
+</html>
